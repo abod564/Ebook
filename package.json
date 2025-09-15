@@ -1,0 +1,19 @@
+{
+  "name": "bs5-simple-starter",
+  "version": "1.0.0",
+  "description": "Simple workflow for working with and customizing Bootstrap 5",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.2.3",
+    "parcel": "^2.15.4",
+    "sass": "^1.62.0"
+  }
+}
